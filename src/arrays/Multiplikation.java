@@ -34,9 +34,9 @@ public class Multiplikation {
 		
 		System.out.println("Fügen wir die Element von A  hinzu ");
 		
-		for (int i = 0; i < A.length; i++) {
+		for (int i = 0; i <l; i++) {
 			
-			for (int j = 0; j < A.length; j++) {
+			for (int j = 0; j < m; j++) {
 				
 			A[i][j] = scan.nextInt();
 			
