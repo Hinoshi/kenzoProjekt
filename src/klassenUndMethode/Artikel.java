@@ -1,0 +1,42 @@
+package klassenUndMethode;
+
+public class Artikel {
+
+	int id ; 
+	
+	double preis ;
+	
+	 
+	public Artikel(int id , double preis ) {
+		
+		this.id = id ; 
+		
+		this.preis= preis ; 
+		
+	}
+
+	public int getId() {
+		
+		return id;
+		
+	}
+
+	public void setId(int id) {
+		
+		this.id = id;
+	}
+
+	public double getPreis() {
+		
+		return preis;
+		
+	}
+
+	public void setPreis(double preis) {
+		
+		this.preis = preis;
+		
+	} 
+	
+	
+}
