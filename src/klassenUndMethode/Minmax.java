@@ -13,8 +13,4 @@ public class Minmax {
 		
 	}
 	
-	public static  MinmaxValues minMax( double a , double ...args) {
-		
-		
-	}
 }

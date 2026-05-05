@@ -1,5 +1,7 @@
 package klassenUndMethode;
 
+
+
 public class Flasche {
 
 	private int id ; 
@@ -85,7 +87,10 @@ public class Flasche {
 	   public void groeße() {
 		   
 		   
+		   
 	   }
+	   
+	
 }
 
 
