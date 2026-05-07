@@ -1,6 +1,6 @@
 package vererbung.obstlager;
 
-public class Apfel extends Obst  {
+public class Apfel implements Obst  {
 	
 	
 	private String farbe;
@@ -12,8 +12,6 @@ public class Apfel extends Obst  {
 		this.farbe = farbe ; 
 		
 		this.name = name ; 
-		
-		super(farbe, name);
 		
 	}
 

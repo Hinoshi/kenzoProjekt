@@ -1,6 +1,9 @@
 package klassenUndMethode;
 
-public class Sparbuch {
+import Interface.displayable.Displayable;
+import Interface.displayable.Utilities;
+
+public class Sparbuch implements Displayable {
 
 	
 	private int kontonummer;
@@ -72,20 +75,30 @@ public class Sparbuch {
 		  return zinsatz ; 
 	  }
 	  
+	  @Override
+	  public void display() {
+		  
+		  System.out.println("Ihr Kontonummer lautet : " +kontonummer + " und Sie fangen mit einem kapital von : " +kapital + " mit einer Zinsatz von : " +zinsatz  +" an .");
+		
+	  }
+	  
 	  public static void main(String[] args) {
 		
 		  Sparbuch sparbuch = new Sparbuch(123098, 1144, 2.5);
 		  
 		  
+		
+		   
+		   Utilities.display(sparbuch);
+		   
+		   System.out.println();
+		   
 		  System.out.println("Sie haben "+  sparbuch.kapital +" gerade .");
 		  
 		  
 		  // ertrag für 03 Jahren 
 		  
 		  double ertrag = sparbuch.getErtrag(3);
-		   
-		   System.out.println("Sie haben gerade : " +ertrag +"  in drei Jahren gewonnen");
-		   
 		   
 		   // Kapital nach einem Jahr
 		   
@@ -106,5 +119,9 @@ public class Sparbuch {
 		   System.out.println("Sie haben nach der Abhebung : " +sparbuch.getKapital());
 		   
 		   
+
+		   
 	}
+
+
 }
