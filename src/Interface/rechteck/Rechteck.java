@@ -27,6 +27,7 @@ public interface Rechteck {
 		}
 	}
 
+	
 	int flaecheinhalt();
 	
 }
