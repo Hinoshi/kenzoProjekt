@@ -1,11 +1,17 @@
 package vererbung.obstlager;
 
-public class Birne extends Obst {
+public class Birne implements Obst {
 
+	
+	public String farbe ; 
+	
+	public String name ; 
+	
 	public Birne(String farbe, String name) {
+
+		this.farbe = farbe ; 
 		
-		super(farbe, name);
-		
+		this.name = name ; 
 	}
 
 	@Override
