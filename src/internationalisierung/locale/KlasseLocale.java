@@ -26,5 +26,7 @@ public class KlasseLocale {
 		  String[] loc4 = Locale.getISOCountries();
 		  
 		  System.out.println(Arrays.toString(loc4));
+		  
+		  
 	}
 }
