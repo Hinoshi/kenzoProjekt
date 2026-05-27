@@ -1,7 +1,8 @@
 package graphic;
 
-import com.sun.javafx.geom.AreaOp.AddOp;
 
+
+import javafx.application.Application;
 import javafx.event.ActionEvent;
 
 import javafx.event.EventHandler;
@@ -10,7 +11,7 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-public class Helloworld extends javafx.application.Application {
+public class Helloworld extends Application {
 
 	@Override
 	public void start(Stage primaryStage) {
@@ -33,11 +34,11 @@ public class Helloworld extends javafx.application.Application {
 		 StackPane root = new StackPane();
 		 
 		 root.getChildren().add(btn);
-		 
+//		 
 		 Scene scene = new Scene(root,300, 250);
-		 
+//		 
 		 primaryStage.setTitle("Welcome to helloworld program ");
-		 
+//		 
 		 primaryStage.setScene(scene);
 		 
 		 primaryStage.show();
@@ -46,7 +47,7 @@ public class Helloworld extends javafx.application.Application {
 	}
 	public static void main(String[] args) {
 	
-		launch(args);
+		Application.launch(args);
 		
 	}
 	
