@@ -1,7 +1,5 @@
 package Interface.displayable;
 
-import klassenUndMethode.Sparbuch;
-
 public class Utilities {
 	
 	private static int nummer ; 

@@ -2,7 +2,7 @@ package klassenUndMethode;
 
 public class Tage {
 	 
-	 public int tage( int jahr , int monat) {
+	 public static int tage( int jahr , int monat) {
 
 
 		 if (monat<=0 || monat>12) {

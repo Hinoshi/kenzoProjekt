@@ -7,7 +7,7 @@ public class KlasseLocale {
 
 	 public static void main(String[] args) {
 		
-		 Locale  loc = Locale.of( "en","US") ; 
+		 Locale  loc = Locale.CANADA; 
 		 
 		 System.out.println(loc);
 		 

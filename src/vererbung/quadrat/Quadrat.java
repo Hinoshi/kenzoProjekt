@@ -5,9 +5,7 @@ public class Quadrat extends Rechteck{
 	private double laenge ; 
 	
 	public Quadrat(double laenge) {
-		
-		 this.laenge = laenge ;
-		
+
 		super(laenge, laenge) ; 
 	}
 

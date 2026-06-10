@@ -1,0 +1,26 @@
+.root{-fx-background-image : url("photo_3_2026-04-10_12-36-39.jpg") ;}
+
+.label{
+	
+	-fx-font-size:12px ;
+	-fx-font-weight : bold ; 
+	-fx-text-fill: #0E1D33 ; 
+}
+#login{
+	
+	-fx-font-size:12px ;
+	-fx-font-family : "Arial Black" ; 
+	-fx-text-fill: #115E7F ; 
+}
+#actiontarget{
+	
+	-fx-font-weight : bold ; 
+	-fx-text-fill: WHITE ; 
+}
+.button{
+	
+	-fx-background-color : linear-gradient(#61a2b1 , #2A5058) ; 
+	-fx-font-family : "Arial Narrow" ; 
+	-fx-text-fill:white ;
+	-fx-font-weight : bold ;  
+}
